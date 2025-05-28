@@ -6,7 +6,7 @@ require("dotenv").config();
 
 global.api = {
   hajime: "https://haji-mix-api.gleeze.com",
-  mongo_uri: "YOUR MONGO URI or PUT IT in .env"
+  mongo_uri: "mongodb+srv://danhackerowner:lgr3iXgbs2cC7lyQ@clusterv.6m2an35.mongodb.net/?retryWrites=true&w=majority&appName=Clusterv"
 };
 
 const {
