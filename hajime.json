@@ -1,9 +1,9 @@
 {
     "author": "Kenneth Panio",
     "sitekey": "6LcfYSEqAAAAAE6hRSZU1S2IeTSS6NTDUV65y6Ac",
-    "weblink": "",
+    "weblink": "https://www.kokonobot.onrender.com",
     "port": "8080",
-    "restartkey": "",
+    "restartkey": "12345",
     "admins": [
         "61554405703021",
         "61574715178108"
