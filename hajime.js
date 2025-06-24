@@ -6,7 +6,7 @@ require("dotenv").config();
 
 global.api = {
   hajime: "https://haji-mix-api.gleeze.com",
-  mongo_uri: "mongodb+srv://danhackerowner:lgr3iXgbs2cC7lyQ@clusterv.6m2an35.mongodb.net/?retryWrites=true&w=majority&appName=Clusterv"
+  mongo_uri: ""
 };
 
 const {
@@ -31,12 +31,12 @@ const pkg_config = fs.existsSync("./package.json")
   : { description: "", keywords: [], author: "", name: "" };
 
 const mongoStore = createStore({
-  type: "mongodb",
+  type: "database",
   uri: process.env.mongo_uri || global.api.mongo_uri,
-  database: "FB_AUTOBOT",
+  database: "NONE",
   collection: "APPSTATE",
   isOwnHost: false,
-  ignoreError: false,
+  ignoreError: true,
   allowClear: false,
   createConnection: false,
 });
